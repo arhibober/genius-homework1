@@ -1,0 +1,233 @@
+:root {
+  --primary-text: #011c44;
+  --secondary-text: #2b7fff;
+  --text-in-background: #fff;
+  --additional-text: #4a4a4a;
+  --carousel-text: #000;
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v32-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* play-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+header .logo {
+  color: var(--secondary-text);
+  font-family: Play;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header-menu li a:hover {
+  color: var(--secondary-text);
+}
+
+.header-menu li a {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.description-main {
+  color: var(--primary-text);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header-main {
+  color: var(--secondary-text);
+  font-family: Play;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 114px;
+  text-align: left;
+}
+
+.ordering {
+  background-color: var(--secondary-text);
+  color: var(--text-in-background);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+p,
+h2 {
+  color: var(--primary-text);
+}
+
+p {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+li p {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+h2 {
+  font-family: Play;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74.05px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.header-accent {
+  color: var(--secondary-text);
+}
+
+.additional-text {
+  color: var(--additional-text);
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+h3 {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25.78px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.text-carousel {
+  color: var(--carousel-text);
+}
+
+.sing-up-form {
+  background-color: var(--primary-text);
+}
+
+.sing-up-form h3 {
+  color: var(--text-in-background);
+}
+
+.sing-up-form {
+  color: var(--text-in-background);
+}
+
+.sing-up-form input {
+  background-color: var(--primary-text);
+}
+
+.sing-up-form input[type="submit"] {
+  background-color: var(--secondary-text);
+}
+
+.sing-up-form p {
+  color: #747272;
+}
+
+footer {
+  background-color: var(--primary-text);
+}
+
+footer * {
+  color: var(--text-in-background);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.copyright-year {
+  color: #747272;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.23px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header-menu li,
+.footer-menu li,
+.text-carousel li,
+.image-carousel li {
+  list-style-type: none;
+}
+
+input::placeholder {
+  width: 244.3px;
+  height: 16px;
+  top: 18px;
+  left: 32.85px;
+  gap: 0px;
+  opacity: 0px;
+  color: var(--text-in-background);
+}
+
+.sing-up-form p {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+footer .logo {
+  color: var(--secondary-text);
+  font-family: Play;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 21px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  background-color: transparent;
+}
+
+footer a {
+  text-decoration: none;
+}
